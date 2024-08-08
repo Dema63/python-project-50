@@ -21,3 +21,4 @@ def generate_diff(file_path1, file_path2, formatter='stylish'):
     data2 = read_and_parse_file(file_path2)
     diff = build_diff(data1, data2)
     return format_diff(diff, formatter)
+    
